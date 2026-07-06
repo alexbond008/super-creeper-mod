@@ -3,7 +3,9 @@
 	"package": "supercreepermod.modid.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"CreeperAccessorMixin",
+		"SnowballMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
